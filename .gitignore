@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+.env
+.env.*
+.adk/
+*.pyc
+.vscode/
+Thumbs.db
+.DS_Store
+~$*.pptx
