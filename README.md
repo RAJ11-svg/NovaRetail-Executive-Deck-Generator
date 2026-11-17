@@ -1,13 +1,16 @@
-NovaRetail Executive Deck Generator
-Overview
+
+# NovaRetail Executive Deck Generator
+
+## Overview
+
 This project automates the generation of a 5-slide executive business review deck for NovaRetail using Python, PowerPoint automation, and Google ADK.
 
 The solution analyzes business performance, customer experience, and operational risk data, generates insights and charts, and creates a presentation-ready PowerPoint deck.
 
-Problem Statement
+## Problem Statement
 Leadership requires a concise executive review deck generated directly from raw business data.
 
-The solution should:
+## The solution should:
 
 Analyze performance data
 Generate business insights
@@ -30,43 +33,36 @@ Executive Deck Generation Tool
 Agent-driven report generation
 Session state support for business story and generated deck information
 Project Structure
-NovaRetail-Executive-Deck-Generator
+NovaRetail-Executive-Deck-Generator/
+├── charts/
+├── data/
+├── icons/
+├── output/
+├── template/
+├── tools/
+│   ├── business_story.py
+│   ├── chart_generator.py
+│   ├── customer_chart_generator.py
+│   ├── data_loader.py
+│   ├── ppt_generator.py
+│   └── risk_chart_generator.py
+├── .gitignore
+├── agent.py
+├── README.md
+└── requirements.txt
 
-charts/
-data/
-icons/
-output/
-template/
-tools/
- /business_story.py
- /chart_generator.py
- /customer_chart_generator.py
- /data_loader.py
- /insights.py
- /ppt_generator.py
- /ppt_inspector.py
- /risk_chart_generator.py
-.gitignore
-agent.py
-README.md
-requirements.txt
-
-*********************************************************************************************************
-
-Installation
+## Installation
 1. Clone the Repository
 Clone the repository and navigate to the project directory.
 
 2. Create a Virtual Environment
 python -m venv venv
-
 3. Activate the Virtual Environment
 For Windows:
-venv\Scripts\activate
 
+venv\Scripts\activate
 4. Install Dependencies
 pip install -r requirements.txt
-
 Environment Variable Setup
 Create a .env file in the project root directory.
 
@@ -80,7 +76,7 @@ Do not commit the .env file or your actual API key to GitHub.
 Running the Application
 Make sure the virtual environment is activated and the required environment variable is configured.
 
-Start the Google ADK web interface:
+## Start the Google ADK web interface:
 
 adk web
 Open the ADK web interface and select the novaretail_agent.
