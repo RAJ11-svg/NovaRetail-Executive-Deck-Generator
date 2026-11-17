@@ -1,5 +1,5 @@
 
-# NovaRetail Executive Deck Generator
+# NovaRetail Q2 2026 Executive QBR Deck
 
 ## Overview
 
@@ -34,22 +34,22 @@ Agent-driven report generation
 Session state support for business story and generated deck information
 Project Structure
 NovaRetail-Executive-Deck-Generator/
-├── charts/
-├── data/
-├── icons/
-├── output/
-├── template/
-├── tools/
-│   ├── business_story.py
-│   ├── chart_generator.py
-│   ├── customer_chart_generator.py
-│   ├── data_loader.py
-│   ├── ppt_generator.py
-│   └── risk_chart_generator.py
-├── .gitignore
-├── agent.py
-├── README.md
-└── requirements.txt
+charts/
+data/
+icons/
+output/
+template/
+tools/
+business_story.py
+chart_generator.py
+customer_chart_generator.py
+data_loader.py
+ppt_generator.py
+risk_chart_generator.py
+.gitignore
+agent.py
+README.md
+requirements.txt
 
 ## Installation
 1. Clone the Repository
@@ -87,7 +87,7 @@ Use a prompt such as:
 What is the NovaRetail business story?
 The agent uses the Business Story Tool to analyze the NovaRetail dataset and return dataset-based business insights.
 
-Generate the Executive Deck
+## Generate the Executive Deck
 Use the following prompt:
 
 Generate the NovaRetail executive deck.
