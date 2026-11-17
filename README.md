@@ -10,7 +10,7 @@ The solution analyzes business performance, customer experience, and operational
 ## Problem Statement
 Leadership requires a concise executive review deck generated directly from raw business data.
 
-## The solution should:
+The solution should:
 
 Analyze performance data
 Generate business insights
