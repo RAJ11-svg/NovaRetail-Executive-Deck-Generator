@@ -158,9 +158,3 @@ def get_business_story(tool_context: ToolContext) -> dict:
     tool_context.state["deck_generated"] = False
 
     return story
-
-if __name__ == "__main__":
-
-    story = generate_story()
-
-    print(story)
